@@ -1,0 +1,14 @@
+[personal]
+logs.cointel.pro ansible_host=104.248.184.225 ansible_port=22 ansible_user=kevin ansible_ssh_private_key_file=/home/kevin/.ssh/id_ed25519_old
+cointel.pro ansible_host=45.55.7.48 ansible_port=22 ansible_user=kevin ansible_ssh_private_key_file=/home/kevin/.ssh/id_ed25519_old
+localhost ansible_host=127.0.0.1 ansible_port=22 ansible_user=kevin ansible_ssh_private_key_file=/home/kevin/.ssh/id_ed25519
+
+[clients]
+transparencytoolkit.org ansible_host=198.167.222.102 ansible_port=22 ansible_user=kevin ansible_ssh_private_key_file=/home/kevin/.ssh/id_ed25519
+libraryfreedomproject.org ansible_host=45.56.70.95 ansible_port=22 ansible_user=kevin ansible_ssh_private_key_file=/home/kevin/.ssh/id_ed25519
+pursuanceproject.org ansible_host=198.167.222.230 ansible_port=22 ansible_user=kevin ansible_ssh_private_key_file=/home/kevin/.ssh/id_ed25519
+
+[vagrant]
+wheezy ansible_host=127.0.0.1 ansible_port=2222 ansible_user='vagrant' ansible_ssh_private_key_file='/home/kevin/dev/testvms/.vagrant/machines/wheezy/virtualbox/private_key'
+jessie ansible_host=127.0.0.1 ansible_port=2222 ansible_user='vagrant' ansible_ssh_private_key_file='/home/kevin/dev/testvms/.vagrant/machines/jessie/virtualbox/private_key'
+stretch ansible_host=127.0.0.1 ansible_port=2222 ansible_user='vagrant' ansible_ssh_private_key_file='/home/kevin/dev/testvms/.vagrant/machines/stretch/virtualbox/private_key'

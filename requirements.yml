@@ -1,0 +1,4 @@
+---
+- src: https://github.com/ageis/ansible-alt-ini-lookup-plugin
+  name: lookup_plugins
+  path: lookup_plugins
